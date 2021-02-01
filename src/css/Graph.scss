@@ -1,0 +1,43 @@
+.graph {
+  svg {
+    width: 100%;
+    border: 1px solid var(--accent);
+    margin-bottom: .5rem;
+    cursor: crosshair;
+  }
+  circle {
+    cursor: grab;
+    fill: white;
+    stroke-width: .5px;
+    stroke: var(--accent);
+  }
+  polyline {
+    stroke-width: .5px;
+    stroke: var(--accent);
+    fill: none;
+  }
+  .graph-x {
+    stroke-width: .5px;
+    opacity: .5;
+    stroke: var(--accent);
+  }
+  .graph-value {
+    fill: var(--accent);
+  }
+  .graph-background {
+    fill: rgb(255, 255, 255);
+  }
+  .graph-output {
+    background: var(--accent);
+    color: white;
+    border-radius: 3px;
+    padding: .1em .3em;
+    padding-top: 0;
+    font-size: .9em;
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+}
+.graph[data-dragging=true] circle {
+  cursor: grabbing;
+}

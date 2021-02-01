@@ -1,0 +1,36 @@
+.demo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 20rem;
+  background: var(--background);
+}
+
+.result {
+  height: 100vh;
+}
+.settings {
+  position: absolute;
+  width: 20rem;
+  right: 2%;
+  top: 2%;
+  background: white;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid var(--accent);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+}
+.settings main {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.panel-header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  background: var(--accent);
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid var(--accent);
+}

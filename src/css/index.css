@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --accent: rgb(2, 2, 2);
+  --background: rgb(241, 241, 243);
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+button,
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

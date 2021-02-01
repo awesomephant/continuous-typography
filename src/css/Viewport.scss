@@ -1,0 +1,74 @@
+.viewport-container {
+  display: flex;
+  align-items: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.viewport {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80vh;
+  .number {
+    font-family: monospace;
+    input {
+      background: transparent;
+    }
+  }
+}
+
+.viewport-copy {
+  padding: 2em 1.5em;
+  height: 80vh;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid var(--accent);
+  overflow-y: scroll;
+  p {
+    font-family: "Source Serif 4 Variable", serif;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    hyphens: auto;
+    max-width: 32em;
+    &:last-of-type {
+      padding-bottom: 3em;
+    }
+  }
+}
+
+.viewport-copy strong {
+  text-indent: 3em;
+  display: inline-block;
+}
+
+.viewport-width {
+  position: absolute;
+  top: -1.8em;
+  left: 50%;
+  transform: translateX(-50%);
+  input {
+    text-align: center;
+  }
+}
+
+.resize-handle {
+  background: var(--accent);
+  height: 100%;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  transition: 100ms;
+  border-radius: 2px;
+  cursor: ew-resize;
+  &:hover {
+    transform: scaleX(1.4);
+  }
+  &.left {
+    left: -20px;
+  }
+  &.right {
+    right: -20px;
+  }
+}

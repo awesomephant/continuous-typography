@@ -1,0 +1,50 @@
+.section {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--accent);
+  z-index: 1000;
+  color: var(--accent);
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+.section-header {
+  color: var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+.number {
+  display: flex;
+  margin-bottom: 0.25rem;
+  span {
+    display: block;
+    margin-right: 0.5rem;
+    flex-basis: 3rem;
+    flex-grow: 1;
+    opacity: .5;
+  }
+  input {
+    display: block;
+    width: 5rem;
+    appearance: textfield;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 0 0.2rem;
+  }
+}
+
+.point-delete {
+  appearance: none;
+  background: none;
+  border: 0;
+  justify-self: flex-end;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.point {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
