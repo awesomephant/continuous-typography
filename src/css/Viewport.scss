@@ -29,17 +29,19 @@
   p {
     font-family: "Source Serif 4 Variable", serif;
     margin: 0 auto;
-    margin-bottom: 0.5em;
     hyphens: auto;
     max-width: 32em;
     &:last-of-type {
       padding-bottom: 3em;
     }
   }
+  p + p {
+    text-indent: 3em;
+
+  }
 }
 
 .viewport-copy strong {
-  text-indent: 3em;
   display: inline-block;
 }
 
@@ -54,21 +56,21 @@
 }
 
 .resize-handle {
-  background: var(--accent);
+  background: white;
+  border: 1px solid var(--accent);
   height: 100%;
-  width: 10px;
+  width: 15px;
   position: absolute;
   top: 0;
   transition: 100ms;
   border-radius: 2px;
   cursor: ew-resize;
   &:hover {
-    transform: scaleX(1.4);
   }
   &.left {
-    left: -20px;
+    left: -25px;
   }
   &.right {
-    right: -20px;
+    right: -25px;
   }
 }

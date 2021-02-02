@@ -5,14 +5,26 @@
   background: var(--background);
 }
 
+.demo-header {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: var(--accent);
+  color: white;
+  padding: .5rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
 .result {
   height: 100vh;
 }
 .settings {
   position: absolute;
   width: 20rem;
-  right: 2%;
-  top: 2%;
+  right: 1rem;
+  top: 1rem;
   background: white;
   border-radius: 2px;
   overflow: hidden;

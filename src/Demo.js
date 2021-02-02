@@ -57,6 +57,7 @@ function Demo() {
 
   return (
     <div className="demo">
+      <header className="demo-header">Continuous Typography Tester (<a href="https://maxkoehler.com/work/continuous-type-tester/">Information</a>)</header>
       <section className="settings">
         <header className="panel-header">
           <h2>Settings</h2>
