@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55c4ced854f8fb9eebb2e745b43a6e69",
+    "revision": "d74b28da83eb04c869461aa703242223",
     "url": "/continuous-typography/index.html"
   },
   {
-    "revision": "b2f72343edcfe8a1fcd4",
-    "url": "/continuous-typography/static/css/main.bd0dd2c8.chunk.css"
+    "revision": "593a960a0e4792810790",
+    "url": "/continuous-typography/static/css/main.d2589967.chunk.css"
   },
   {
     "revision": "ad003b0d614e6009a6f0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/continuous-typography/static/js/2.9bacec31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2f72343edcfe8a1fcd4",
+    "revision": "593a960a0e4792810790",
     "url": "/continuous-typography/static/js/main.e40bdd77.chunk.js"
   },
   {
