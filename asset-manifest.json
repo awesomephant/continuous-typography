@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/continuous-typography/static/css/main.0e152822.chunk.css",
-    "main.js": "/continuous-typography/static/js/main.f22d6449.chunk.js",
-    "main.js.map": "/continuous-typography/static/js/main.f22d6449.chunk.js.map",
+    "main.css": "/continuous-typography/static/css/main.bd0dd2c8.chunk.css",
+    "main.js": "/continuous-typography/static/js/main.e40bdd77.chunk.js",
+    "main.js.map": "/continuous-typography/static/js/main.e40bdd77.chunk.js.map",
     "runtime-main.js": "/continuous-typography/static/js/runtime-main.6c6ad44c.js",
     "runtime-main.js.map": "/continuous-typography/static/js/runtime-main.6c6ad44c.js.map",
     "static/js/2.9bacec31.chunk.js": "/continuous-typography/static/js/2.9bacec31.chunk.js",
     "static/js/2.9bacec31.chunk.js.map": "/continuous-typography/static/js/2.9bacec31.chunk.js.map",
     "index.html": "/continuous-typography/index.html",
-    "precache-manifest.018d0bb39b6de3c8e83bd329e8334721.js": "/continuous-typography/precache-manifest.018d0bb39b6de3c8e83bd329e8334721.js",
+    "precache-manifest.bdc2377c3180630d55890058bced7858.js": "/continuous-typography/precache-manifest.bdc2377c3180630d55890058bced7858.js",
     "service-worker.js": "/continuous-typography/service-worker.js",
-    "static/css/main.0e152822.chunk.css.map": "/continuous-typography/static/css/main.0e152822.chunk.css.map",
+    "static/css/main.bd0dd2c8.chunk.css.map": "/continuous-typography/static/css/main.bd0dd2c8.chunk.css.map",
     "static/js/2.9bacec31.chunk.js.LICENSE.txt": "/continuous-typography/static/js/2.9bacec31.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6c6ad44c.js",
     "static/js/2.9bacec31.chunk.js",
-    "static/css/main.0e152822.chunk.css",
-    "static/js/main.f22d6449.chunk.js"
+    "static/css/main.bd0dd2c8.chunk.css",
+    "static/js/main.e40bdd77.chunk.js"
   ]
 }
