@@ -14,9 +14,10 @@ function Demo() {
   const [fontSize, setFontSize] = useState({
     points: [
       { x: 0, y: 15 },
-      { x: 350, y: 15 },
-      { x: 450, y: 18 },
-      { x: 800, y: 22 },
+      { x: 400, y: 16.2 },
+      { x: 660, y: 18.7 },
+      { x: 960, y: 23.5 },
+      { x: 1400, y: 26.8 },
       { x: 2000, y: 28 },
     ],
     displayUnit: "px"
@@ -24,7 +25,10 @@ function Demo() {
   const [lineHeight, setLineHeight] = useState({
     points: [
       { x: 0, y: 1.5 },
+      { x: 270, y: 1.42 },
       { x: 700, y: 1.4 },
+      { x: 1100, y: 1.41 },
+      { x: 1400, y: 1.43 },
       { x: 2000, y: 1.5 },
     ],
     displayUnit: ""
@@ -41,8 +45,9 @@ function Demo() {
   const [opticalSize, setOpticalSize] = useState({
     points: [
       { x: 0, y: 8 },
-      { x: 400, y: 12 },
-      { x: 800, y: 30 },
+      { x: 140, y: 15.6 },
+      { x: 435, y: 22.1 },
+      { x: 960, y: 28.3 },
       { x: 2000, y: 30 },
     ],
     displayUnit: ""
